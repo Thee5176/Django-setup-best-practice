@@ -1,0 +1,25 @@
+DEBUG: Started at 2024-10-02 11:36:48.457412
+DEBUG: norm called with args:([1, -1, 1],) , kwargs:{}
+DEBUG: RESULT from norm:1.7320508075688772
+DEBUG: inner_product called with args:([1, 1, 2], [1, -1, 1]) , kwargs:{}
+DEBUG: RESULT from inner_product:2
+DEBUG: inner_product called with args:([1, -1, 1], [1, -1, 1]) , kwargs:{}
+DEBUG: RESULT from inner_product:3
+DEBUG: subtract called with args:([1, 0, 1], [0.3849001794597505, 0.0, 0.3849001794597505]) , kwargs:{}
+DEBUG: RESULT from subtract:[0.6150998205402495, 0.0, 0.6150998205402495]
+DEBUG: norm called with args:([1, -1, 1],) , kwargs:{}
+DEBUG: RESULT from norm:1.7320508075688772
+DEBUG: inner_product called with args:([1, 1, 2], [1, -1, 1]) , kwargs:{}
+DEBUG: RESULT from inner_product:2
+DEBUG: inner_product called with args:([1, -1, 1], [1, -1, 1]) , kwargs:{}
+DEBUG: RESULT from inner_product:3
+DEBUG: subtract called with args:([1, 1, 2], [0.3849001794597505, 0.3849001794597505, 0.769800358919501]) , kwargs:{}
+DEBUG: RESULT from subtract:[0.6150998205402495, 0.6150998205402495, 1.230199641080499]
+DEBUG: norm called with args:([0.6150998205402495, 0.0, 0.6150998205402495],) , kwargs:{}
+DEBUG: RESULT from norm:0.8698825084212777
+DEBUG: inner_product called with args:([1, 1, 2], [1, 0, 1]) , kwargs:{}
+DEBUG: RESULT from inner_product:3
+DEBUG: inner_product called with args:([0.6150998205402495, 0.0, 0.6150998205402495], [0.6150998205402495, 0.0, 0.6150998205402495]) , kwargs:{}
+DEBUG: RESULT from inner_product:0.7566955784572942
+DEBUG: subtract called with args:([0.6150998205402495, 0.6150998205402495, 1.230199641080499], [2.8033999457013663, 2.8033999457013663, 5.606799891402733]) , kwargs:{}
+DEBUG: RESULT from subtract:[-2.188300125161117, -2.188300125161117, -4.376600250322234]
